@@ -21,3 +21,16 @@ footer {
     margin-bottom: 0;
     border-radius: 0;
 }
+
+#donateWrap{
+    overflow: hidden;
+}
+.donatePayPalWrap {
+    width: 50%;
+    float: left;
+}
+
+.donateBitcoinWrap {
+    width: 50%;
+    float: right;
+}
