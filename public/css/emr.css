@@ -1,0 +1,10 @@
+﻿#emr_wrap {
+    width: 100%;
+    min-height: 300px;
+}
+
+/*Screenshots*/
+#screenshot_wrap p {
+    text-align: center;
+}
+
