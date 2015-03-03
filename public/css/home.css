@@ -83,6 +83,7 @@
     overflow: auto;
     width: auto;
 }
+
 @media(max-width: 1155px){
     .deviceExample{
         width: 100%;

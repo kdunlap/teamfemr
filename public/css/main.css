@@ -38,51 +38,42 @@ footer {
     margin-left: 40px;
     float: left;
 }
-/*
-.navigationWrap > div{
-    display: inline-block;
-    width: 50%;
-    height: 100%;
+.navigationWrap nav a:hover{
+    text-decoration: none;
+    color: black;
 }
-.navigationWrap .nameWrap{
+
+@media(max-width: 375px){
+    .navigationWrap a:first-child{
+        margin-left: 0px;
+    }
+}
+@media(max-width: 328px){
+    .navigationWrap{
+        line-height: 40px;
+    }
+    .navigationWrap a{
+        padding: 5px;
+    }
+}
+
+
+/*Content*/
+#content {
+    background: #5f5f5f;
+    min-height: 565px;
+}
+
+
+#donateWrap{
+    overflow: hidden;
+}
+.donatePayPalWrap {
+    width: 50%;
     float: left;
 }
-.navigationWrap .navWrap{
-    text-align:right;
+
+.donateBitcoinWrap {
+    width: 50%;
     float: right;
 }
-.navigationWrap .navWrap nav{
-    height: 100%;
-}
-.navigationWrap .navWrap nav a{
-    padding-left: 25px;
-    padding-right: 25px;
-    display: inline-block;
-    height: 100%;
-    color: #9f9f9f;
-    }*/
-    .navigationWrap nav a:hover{
-        text-decoration: none;
-        color: black;
-    }
-
-
-    /*Content*/
-    #content {
-        background: #5f5f5f;
-        min-height: 565px;
-    }
-
-
-    #donateWrap{
-        overflow: hidden;
-    }
-    .donatePayPalWrap {
-        width: 50%;
-        float: left;
-    }
-
-    .donateBitcoinWrap {
-        width: 50%;
-        float: right;
-    }
