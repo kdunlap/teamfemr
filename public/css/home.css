@@ -3,10 +3,9 @@
 }
 
 #home_logo {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 50px;
+    padding: 10px;
+    width: 25%;
+    height: 25%;
 }
 
 .goButton {
