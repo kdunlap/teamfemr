@@ -12,11 +12,21 @@ footer {
     font-size: 12px !important;
 }
 
-.message h3,h2{
+.message h3,h2, p{
     text-align: center;
 }
 .message{
     padding: 20px 40px 0px 40px;
+}
+#ircButton{
+    margin-bottom: 15px;
+}
+.message iframe{
+    border:0; 
+    width:50%; 
+    margin: 0 auto;
+    height:450px;
+    display: none;
 }
 
 /*Navigation bar*/

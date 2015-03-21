@@ -10,11 +10,12 @@
     margin-right: auto;
     display: block;
 }
+.devButtonWrap{
+    text-align: center;
+}
 
-.goButton {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.goButton, .devButton{
+    
     margin-top: 30px;
     width: 200px;
     padding-top: 10px;
@@ -25,17 +26,23 @@
     font-size: 20px;
     text-decoration: none;
     text-align: center;
+    color: black;
+}
+.devButton{
+    display: inline-block;
+}
+.goButton {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.goButton:hover {
+.goButton:hover, .devButton:hover {
     text-decoration: none;
     background-color: #3f3f3f;
     color: black;
 }
 
-.goButton{
-    color: black;
-}
 #content_header{
     padding-bottom: 50px;
     background: #7f7f7f;
